@@ -50,7 +50,7 @@ namespace Volo.Abp.Identity
                 new SettingDefinition(EmailSettingNames.Smtp.EnableSsl, "true"),
                 new SettingDefinition(EmailSettingNames.Smtp.UseDefaultCredentials, "false"),
                 new SettingDefinition(EmailSettingNames.DefaultFromAddress, "igeekfan@163.com"),
-                new SettingDefinition(EmailSettingNames.DefaultFromDisplayName, "ABP")
+                new SettingDefinition(EmailSettingNames.DefaultFromDisplayName, "ABP"),
                 new SettingDefinition(
                     IdentitySettingNames.Password.RequireUppercase, 
                     true.ToString(), L("DisplayName:Abp.Identity.Password.RequireUppercase"), 
